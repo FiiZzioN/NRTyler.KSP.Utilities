@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,22 +20,22 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum FlightProfile
     {
-	    [Description("Undefined")]
+	    [StringLabel("Undefined")]
 	    Undefined = 0,
 
-	    [Description("Ground Based")]
+	    [StringLabel("Ground Based")]
 	    GroundBased = 1,
 
-		[Description("Atmospheric Flight")]
+		[StringLabel("Atmospheric Flight")]
         AtmosphericFlight = 2,
 
-        [Description("Suborbital")]
+        [StringLabel("Suborbital")]
         Suborbital = 3,
 
-        [Description("Orbital")]
+        [StringLabel("Orbital")]
         Orbital = 4,
 
-        [Description("Interplanetary")]
+        [StringLabel("Interplanetary")]
         Interplanetary = 5,
     }
 }

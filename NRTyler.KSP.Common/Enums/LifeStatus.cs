@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,16 +20,16 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum LifeStatus
     {
-        [Description("Available")]
+        [StringLabel("Available")]
         Available = 0,
 
-        [Description("Assigned")]
+        [StringLabel("Assigned")]
         OnMission = 1,
 
-        [Description("Missing in Action")]
+        [StringLabel("Missing in Action")]
         MIA = 2,
 
-        [Description("Killed in Action")]
+        [StringLabel("Killed in Action")]
         KIA = 3,
     }
 }

@@ -1,17 +1,17 @@
 ﻿// ***********************************************************************
-// Assembly         : NRTyler.KSPManager.Common
+// Assembly         : NRTyler.KSP.Common
 //
 // Author           : Nicholas Tyler
-// Created          : 08-16-2017
+// Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
-// License          : GNU General Public License v3.0
+// License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,25 +20,25 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum CraftSituation
     {
-	    [Description("Undefined")]
+	    [StringLabel("Undefined")]
 	    Undefined = 0,
 
-	    [Description("In Vehicle Assembly Building")]
+	    [StringLabel("In Vehicle Assembly Building")]
 	    InsideVAB = 1,
 
-	    [Description("In SpacePlane Hanger")]
+	    [StringLabel("In SpacePlane Hanger")]
 	    InsideSPH = 2,
 
-		[Description("Landed")]
+		[StringLabel("Landed")]
         Landed = 3,
 
-        [Description("Suborbital")]
+        [StringLabel("Suborbital")]
         Suborbital = 4,
 
-        [Description("On Orbit")]
+        [StringLabel("On Orbit")]
         OnOrbit = 5,
 
-        [Description("In Flight")]
+        [StringLabel("In Flight")]
         InFlight = 6,
     }
 }

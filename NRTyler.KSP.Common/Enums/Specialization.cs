@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,19 +20,19 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum Specialization
     {
-	    [Description("Undefined")]
+	    [StringLabel("Undefined")]
 	    Undefined = 0,
 
-		[Description("Pilot")]
+		[StringLabel("Pilot")]
         Pilot = 1,
 
-        [Description("Scientist")]
+        [StringLabel("Scientist")]
         Scientist = 2,
 
-        [Description("Engineer")]
+        [StringLabel("Engineer")]
         Engineer = 3,
 
-        [Description("Tourist")]
+        [StringLabel("Tourist")]
         Tourist = 4,
     }
 }

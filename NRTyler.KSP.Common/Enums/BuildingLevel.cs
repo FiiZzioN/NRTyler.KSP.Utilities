@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,13 +20,13 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum BuildingLevel
     {
-        [Description("One")]
+        [StringLabel("One")]
         One = 0,
 
-        [Description("Two")]
+        [StringLabel("Two")]
         Two = 1,
 
-        [Description("Three")]
+        [StringLabel("Three")]
         Three = 2,
     }
 }

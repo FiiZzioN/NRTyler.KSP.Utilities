@@ -1,12 +1,12 @@
-﻿// ************************************************************************
+﻿// ***********************************************************************
 // Assembly         : NRTyler.KSP.VesselTelemetry.Services
-// 
+//
 // Author           : Nicholas Tyler
 // Created          : 09-24-2017
-// 
+//
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 09-24-2017
-// 
+// Last Modified On : 09-25-2017
+//
 // License          : MIT License
 // ***********************************************************************
 

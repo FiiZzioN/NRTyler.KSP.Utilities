@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 08-16-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -20,31 +20,31 @@ namespace NRTyler.KSP.Common.Enums
 	/// </summary>
 	public enum BuildingName
 	{
-		[Description("Vehicle Assembly Building")]
+		[StringLabel("Vehicle Assembly Building")]
 		VAB = 0,
 
-		[Description("Launchpad")]
+		[StringLabel("Launchpad")]
 		LaunchPad = 1,
 
-		[Description("Spaceplane Hangar")]
+		[StringLabel("Spaceplane Hangar")]
 		SPH = 2,
 
-		[Description("Runway")]
+		[StringLabel("Runway")]
 		Runway = 3,
 
-		[Description("Tracking Station")]
+		[StringLabel("Tracking Station")]
 		TrackingStation = 4,
 
-		[Description("Astronaut Complex")]
+		[StringLabel("Astronaut Complex")]
 		AstronautComplex = 5,
 
-		[Description("Research And Development")]
+		[StringLabel("Research And Development")]
 		RND = 6,
 
-		[Description("Mission Control")]
+		[StringLabel("Mission Control")]
 		MissionControl = 7,
 
-		[Description("Administration Building")]
+		[StringLabel("Administration Building")]
 		Administration = 8,
 	}
 }

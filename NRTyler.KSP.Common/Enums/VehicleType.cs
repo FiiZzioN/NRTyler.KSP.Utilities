@@ -5,13 +5,13 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 09-05-2017
+// Last Modified On : 10-01-2017
 //
 // License          : MIT License
 // ***********************************************************************
 
 using System;
-using System.ComponentModel;
+using NRTyler.CodeLibrary.Attributes;
 
 namespace NRTyler.KSP.Common.Enums
 {
@@ -21,37 +21,37 @@ namespace NRTyler.KSP.Common.Enums
 	[Serializable]
 	public enum VehicleType
     {
-	    [Description("Undefined")]
+	    [StringLabel("Undefined")]
 	    Undefined = 0,
 
-		[Description("Satellite")]
+		[StringLabel("Satellite")]
         Satellite = 1,
 
-        [Description("Probe")]
+        [StringLabel("Probe")]
         Probe = 2,
 
-        [Description("Rover")]
+        [StringLabel("Rover")]
         Rover = 3,
 
-        [Description("Lander")]
+        [StringLabel("Lander")]
         Lander = 4,
 
-        [Description("Capsule")]
+        [StringLabel("Capsule")]
         Capsule = 5,
 
-        [Description("Station")]
+        [StringLabel("Station")]
         Station = 6,
 
-        [Description("Base")]
+        [StringLabel("Base")]
         Base = 7,
 
-        [Description("Airplane")]
+        [StringLabel("Airplane")]
         Airplane = 8,
 
-        [Description("Kerbal")]
+        [StringLabel("Kerbal")]
         Kerbal = 9,
 
-	    [Description("Launch Vehicle")]
+	    [StringLabel("Launch Vehicle")]
 	    LaunchVehicle = 10,
 	}
 }
