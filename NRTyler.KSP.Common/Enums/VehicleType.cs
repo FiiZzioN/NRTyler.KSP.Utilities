@@ -5,7 +5,7 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 10-01-2017
+// Last Modified On : 12-22-2017
 //
 // License          : MIT License
 // ***********************************************************************
@@ -51,7 +51,16 @@ namespace NRTyler.KSP.Common.Enums
         [StringLabel("Kerbal")]
         Kerbal = 9,
 
-	    [StringLabel("Launch Vehicle")]
-	    LaunchVehicle = 10,
-	}
+        [StringLabel("Relay")]
+        Relay = 10,
+
+        [StringLabel("Debris")]
+        Debris = 11,
+
+        [StringLabel("Ship")]
+        Ship = 12,
+
+        [StringLabel("Spaceplane")]
+        Spaceplane = 13,
+    }
 }

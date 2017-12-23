@@ -5,7 +5,7 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 10-01-2017
+// Last Modified On : 12-22-2017
 //
 // License          : MIT License
 // ***********************************************************************
@@ -23,13 +23,16 @@ namespace NRTyler.KSP.Common.Enums
 		[StringLabel("Undefined")]
 		Undefined = 0,
 
-		[StringLabel("Deorbit")]
+		[StringLabel("De-Orbit")]
 		Deorbit = 1,
 
 		[StringLabel("Graveyard Orbit")]
 		GraveyardOrbit = 2,
 
-		[StringLabel("Explosion")]
-		Explosion = 3,
+	    [StringLabel("SOI Ejection")]
+	    SOIEjection = 3,
+
+        [StringLabel("Explosion")]
+		Explosion = 4,
 	}
 }

@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTyler.KSP.Common", "NRTyler.KSP.Common\NRTyler.KSP.Common.csproj", "{0DA6358C-CEB6-4FE2-8411-E8F29AD0C57E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTyler.KSP.Services", "NRTyler.KSP.Services\NRTyler.KSP.Services.csproj", "{489B603D-EB2A-479F-B093-09E381D16188}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{E0120457-9A50-4807-8CFD-C7243C9E06F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTyler.KSP.CommonTests", "NRTyler.KSP.CommonTests\NRTyler.KSP.CommonTests.csproj", "{211C9102-35E2-4642-ADD3-5D6B5780A32D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTyler.KSP.ServiceTests", "NRTyler.KSP.ServiceTests\NRTyler.KSP.ServiceTests.csproj", "{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTyler.KSP.UnitTestConsole", "NRTyler.KSP.UnitTestConsole\NRTyler.KSP.UnitTestConsole.csproj", "{0ECB6A9C-E08F-44ED-BC56-A0DDE42BB18F}"
 EndProject
@@ -25,18 +21,10 @@ Global
 		{0DA6358C-CEB6-4FE2-8411-E8F29AD0C57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA6358C-CEB6-4FE2-8411-E8F29AD0C57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA6358C-CEB6-4FE2-8411-E8F29AD0C57E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{489B603D-EB2A-479F-B093-09E381D16188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{489B603D-EB2A-479F-B093-09E381D16188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{489B603D-EB2A-479F-B093-09E381D16188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{489B603D-EB2A-479F-B093-09E381D16188}.Release|Any CPU.Build.0 = Release|Any CPU
 		{211C9102-35E2-4642-ADD3-5D6B5780A32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{211C9102-35E2-4642-ADD3-5D6B5780A32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211C9102-35E2-4642-ADD3-5D6B5780A32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211C9102-35E2-4642-ADD3-5D6B5780A32D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0ECB6A9C-E08F-44ED-BC56-A0DDE42BB18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0ECB6A9C-E08F-44ED-BC56-A0DDE42BB18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECB6A9C-E08F-44ED-BC56-A0DDE42BB18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,7 +35,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{211C9102-35E2-4642-ADD3-5D6B5780A32D} = {E0120457-9A50-4807-8CFD-C7243C9E06F0}
-		{52DC876D-E6D2-44CB-AFE6-FDC26F9B699D} = {E0120457-9A50-4807-8CFD-C7243C9E06F0}
 		{0ECB6A9C-E08F-44ED-BC56-A0DDE42BB18F} = {E0120457-9A50-4807-8CFD-C7243C9E06F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

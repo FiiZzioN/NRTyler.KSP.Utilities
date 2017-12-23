@@ -5,7 +5,7 @@
 // Created          : 09-24-2017
 //
 // Last Modified By : Nicholas Tyler
-// Last Modified On : 10-01-2017
+// Last Modified On : 10-05-2017
 //
 // License          : MIT License
 // ***********************************************************************
@@ -32,7 +32,7 @@ namespace NRTyler.KSP.Common.Enums
 		[StringLabel("Landed")]
         Landed = 3,
 
-        [StringLabel("Suborbital")]
+        [StringLabel("Sub-Orbital")]
         Suborbital = 4,
 
         [StringLabel("On Orbit")]
@@ -40,5 +40,14 @@ namespace NRTyler.KSP.Common.Enums
 
         [StringLabel("In Flight")]
         InFlight = 6,
+
+        [StringLabel("Docked To Vessel")]
+        Docked = 7,
+
+        [StringLabel("Escaping")]
+        Escaping = 8,
+
+        [StringLabel("Splashed Down")]
+        SplashDown = 9,
     }
 }

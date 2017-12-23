@@ -53,17 +53,19 @@
     <Compile Include="Enums\LifeStatus.cs" />
     <Compile Include="Enums\MissionState.cs" />
     <Compile Include="Enums\MissionType.cs" />
+    <Compile Include="Enums\OrbitType.cs" />
     <Compile Include="Enums\PacificationType.cs" />
     <Compile Include="Enums\Specialization.cs" />
     <Compile Include="Enums\VehicleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\DeltaVCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Attributes\" />
     <Folder Include="EventArgs\" />
     <Folder Include="Extensions\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Utilities\" />
+    <Folder Include="Services\Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
