@@ -109,11 +109,14 @@ namespace NRTyler.KSP.Common.Enums
 
         #region Injection Classifications
 
+        [StringLabel("Geostationary Transfer Orbit")]
+        GTO = 21,
+
         [StringLabel("Trans-Lunar Injection")]
-        LunarInjection = 21,
+        LunarInjection = 22,
 
         [StringLabel("Trans-Mars Injection")]
-        MarsInjection = 22,
+        MarsInjection = 23,
 
         #endregion
     }
